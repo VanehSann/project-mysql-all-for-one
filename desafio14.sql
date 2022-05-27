@@ -1,1 +1,2 @@
-SELECT HOUR(submitted_date) AS supplier_id northwind.purchase_orders;
+SELECT submitted_date northwind.purchase_orders
+WHERE supplier_id = 1 OR supplier_id = 3;
